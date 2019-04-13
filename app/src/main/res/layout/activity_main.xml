@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/pdf_js"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pdf js --4m"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/pdf_viewer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Pdf Viewer --16m"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/pdf_js" />
+
+    <Button
+        android:id="@+id/pdf_view_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pdf ViewPager --200k"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/pdf_viewer" />
+
+    <Button
+        android:id="@+id/pdf_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pdf View --8m"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/pdf_view_pager" />
+
+    <Button
+        android:id="@+id/x5_web_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X5 WebView --"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/pdf_view" />
+
+    <Button
+        android:id="@+id/x5_web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X5  --"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@+id/x5_web_view" />
+
+</android.support.constraint.ConstraintLayout>
