@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Pdf Samples</string>
+
+    <string name="no_permissions">未取得相应权限，暂时无法使用</string>
 </resources>
